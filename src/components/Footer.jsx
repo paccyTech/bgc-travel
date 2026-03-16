@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
+import logoBGC from '../assets/logoBGC.jfif';
 
 export default function Footer() {
     return (
@@ -9,9 +10,16 @@ export default function Footer() {
 
                     {/* Brand Info */}
                     <div className="space-y-4">
-                        <h3 className="text-2xl font-bold text-white mb-4">
-                            BGC <span className="text-bgc-amber">LTD</span>
-                        </h3>
+                        <div className="flex items-center gap-3 mb-4">
+                            <img
+                                src={logoBGC}
+                                alt="Bridge Global Connect Logo"
+                                className="h-14 w-auto object-contain brightness-110 contrast-125"
+                            />
+                            <h3 className="text-xl font-bold text-white tracking-tight leading-none">
+                                BGC <span className="text-bgc-amber">LTD</span>
+                            </h3>
+                        </div>
                         <p className="text-slate-300 text-sm leading-relaxed">
                             Your trusted partner for international mobility. We specialize in travel, study abroad, visas, and connecting you to global opportunities with ease and professionalism.
                         </p>

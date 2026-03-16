@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import logoBGC from '../assets/derLog.PNG';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,12 +11,16 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-20">
                     <div className="flex items-center">
-                        <Link to="/" className="flex-shrink-0 flex items-center gap-2">
-                            <span className="text-3xl font-extrabold text-bgc-navy tracking-tighter">BGC</span>
-                            <div className="hidden sm:block border-l-2 border-slate-200 h-8 mx-2"></div>
-                            <span className="hidden sm:block text-sm font-semibold text-slate-600 leading-tight">
+                        <Link to="/" className="flex-shrink-0 flex items-center gap-3">
+                            <img
+                                src={logoBGC}
+                                alt="Bridge Global Connect Logo"
+                                className="h-16 w-auto object-contain hover:scale-105 transition-transform"
+                            />
+                            {/* <div className="hidden sm:block border-l-2 border-slate-200 h-8 mx-1"></div>
+                            <span className="hidden sm:block text-sm font-bold text-bgc-navy leading-none tracking-tight">
                                 BRIDGE GLOBAL<br />CONNECT LTD
-                            </span>
+                            </span> */}
                         </Link>
                     </div>
                     <div className="hidden md:ml-6 md:flex md:items-center md:space-x-8">
