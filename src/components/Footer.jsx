@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
-import logoBGC from '../assets/logoBGC.jfif';
+import logoBGC from '../assets/derLog.PNG';
 
 export default function Footer() {
     return (
