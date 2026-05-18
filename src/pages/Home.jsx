@@ -6,6 +6,7 @@ import {
     Building, Car, Mail, Phone, Send, Loader2, X, Image as ImageIcon
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import TripFlyer from '../components/TripFlyer';
 
 // Akagera Gallery Imports
 import ak1 from '../assets/akagera/WhatsApp Image 2026-03-12 at 08.22.12.jpeg';
@@ -278,6 +279,9 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            {/* Trip Flyer Section */}
+            <TripFlyer />
 
             {/* Visa Section */}
             <section id="visa" className="py-24 bg-slate-50">
