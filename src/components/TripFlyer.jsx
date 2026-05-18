@@ -6,7 +6,6 @@ const trips = [
   {
     id: 1,
     title: "Nyungwe Trip",
-    subtitle: "7 Days Adventure",
     image: "/flyer.jpg",
     duration: "7 Days / 6 Nights",
     groupSize: "Max 12 travelers",
@@ -111,7 +110,6 @@ export default function TripFlyer() {
                     
                     {/* Title Overlay */}
                     <div className="absolute bottom-0 left-0 right-0 p-6">
-                      <p className="text-bgc-amber font-semibold text-sm mb-1">{trip.subtitle}</p>
                       <h3 className="text-2xl md:text-3xl font-bold text-white">{trip.title}</h3>
                     </div>
                   </div>

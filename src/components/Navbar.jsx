@@ -15,7 +15,7 @@ export default function Navbar() {
                             <img
                                 src={logoBGC}
                                 alt="Bridge Global Connect Logo"
-                                className="h-16 w-auto object-contain hover:scale-105 transition-transform"
+                                className="h-10 w-auto object-contain hover:scale-105 transition-transform"
                             />
                             {/* <div className="hidden sm:block border-l-2 border-slate-200 h-8 mx-1"></div>
                             <span className="hidden sm:block text-sm font-bold text-bgc-navy leading-none tracking-tight">
