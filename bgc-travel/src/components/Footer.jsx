@@ -75,6 +75,7 @@ export default function Footer() {
                     </div>
                 </div>
 
+                {/* Updated: 2026-05-22 */}
                 <div className="border-t border-slate-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-slate-400 text-sm">
                         &copy; {new Date().getFullYear()} Bridge Global Connect LTD. All rights reserved.
