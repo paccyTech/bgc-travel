@@ -61,7 +61,7 @@ export default function Footer() {
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">
                                 <MapPin className="text-bgc-amber mt-1" size={20} />
-                                <span className="text-slate-300 text-sm">Downtown Business Center, Suite 405<br />Kigali, Rwanda</span>
+                                <span className="text-slate-300 text-sm">Kigali, Rwanda</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone className="text-bgc-amber" size={20} />
@@ -69,12 +69,13 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail className="text-bgc-amber" size={20} />
-                                <span className="text-slate-300 text-sm">info@bridgeglobalconnect.com</span>
+                                <span className="text-slate-300 text-sm">bridgeglobalc@gmail.com</span>
                             </li>
                         </ul>
                     </div>
                 </div>
 
+                {/* Updated: 2026-05-22 */}
                 <div className="border-t border-slate-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-slate-400 text-sm">
                         &copy; {new Date().getFullYear()} Bridge Global Connect LTD. All rights reserved.

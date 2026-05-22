@@ -344,7 +344,7 @@ export default function Home() {
                             <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
                             <div className="space-y-6">
                                 <div className="flex items-center gap-4"><Phone className="text-bgc-amber" /> <span>+250 788 700 803</span></div>
-                                <div className="flex items-center gap-4"><Mail className="text-bgc-amber" /> <span>info@bgc.com</span></div>
+                                <div className="flex items-center gap-4"><Mail className="text-bgc-amber" /> <span>bridgeglobalc@gmail.com</span></div>
                                 <div className="flex items-center gap-4"><MapPin className="text-bgc-amber" /> <span>Kigali, Rwanda</span></div>
                             </div>
                         </div>
