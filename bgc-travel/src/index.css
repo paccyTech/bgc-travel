@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bgc-navy: #15315b;
+  --color-bgc-amber: #ec9b22;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased font-sans;
+  }
+}
